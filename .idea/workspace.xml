@@ -4,62 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bb8716-4e1a-40a9-bbb4-e632bd87cc33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../AdventureTest/ui/pictures/thorn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Habits.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom_widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/.CoordinateFunctions.py.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/.colors.py.swp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/CanvasFunctions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/ConvertTime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/CoordinateFunctions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/Logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/PluralSingular.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/SoundManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/file_structure/file_list_in_folder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/get_function_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/general_modules/pygame_audio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saving.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/.idea/AdventureTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/.idea/AdventureTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/CombatResolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/CombatResolver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Components.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Components.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Context.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Context.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Entities.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Entities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Projectiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Projectiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Units.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Units.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/data/dataregistry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/data/dataregistry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/data/game.db" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/data/game.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/CanvasFunctions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/ConvertTime.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/CoordinateFunctions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/Logger.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/PluralSingular.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/SoundManager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/file_structure/file_list_in_folder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/get_function_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/pygame_audio.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/colors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/gif_creator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/managers/InputManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/managers/InputManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/systems/FightSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/systems/FightSystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/systems/TimeSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/systems/TimeSystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/systems/WaveSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/systems/WaveSystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/testing/Enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/testing/Enum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/ui/UIManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/ui/UIManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/ui/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/ui/camera.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AdventureTest/ui/rendersystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/ui/rendersystem.py" afterDir="false" />
-    </list>
+    <list default="true" id="a6bb8716-4e1a-40a9-bbb4-e632bd87cc33" name="Changes" comment="20.03. Basic interface functional, only counterwidgets so far" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +123,20 @@
       <option name="presentableId" value="Default" />
       <updated>1772523539890</updated>
     </task>
+    <task id="LOCAL-00001" summary="20.03. Basic interface functional, only counterwidgets so far">
+      <option name="closed" value="true" />
+      <created>1774026138458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774026138458</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20.03. Basic interface functional, only counterwidgets so far" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.03. Basic interface functional, only counterwidgets so far" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
