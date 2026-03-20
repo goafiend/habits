@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a6bb8716-4e1a-40a9-bbb4-e632bd87cc33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AdventureTest/ui/pictures/thorn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Habits.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/.CoordinateFunctions.py.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/.colors.py.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/CanvasFunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/ConvertTime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/CoordinateFunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/Logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/PluralSingular.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/SoundManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/file_structure/file_list_in_folder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/get_function_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_modules/pygame_audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/.idea/AdventureTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/.idea/AdventureTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/CombatResolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/CombatResolver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Components.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Context.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Entities.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Entities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Projectiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Projectiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/core/Units.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/core/Units.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/data/dataregistry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/data/dataregistry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/data/game.db" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/data/game.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/CanvasFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/ConvertTime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/CoordinateFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/Logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/PluralSingular.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/SoundManager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/file_structure/file_list_in_folder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/get_function_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/pygame_audio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/colors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/general_modules/visual/gif_creator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/managers/InputManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/managers/InputManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/systems/FightSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/systems/FightSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/systems/TimeSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/systems/TimeSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/systems/WaveSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/systems/WaveSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/testing/Enum.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/testing/Enum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/ui/UIManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/ui/UIManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/ui/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/ui/camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AdventureTest/ui/rendersystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventureTest/ui/rendersystem.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2024.1/python_stubs/-208019133/kivy/graphics/context_instructions.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/kivy/uix/widget.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3AQSwTQsD4QTClCTsbT4ovpjoya" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.interface.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/41774/PycharmProjects/Habits&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\41774\PycharmProjects\Habits" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\41774\PycharmProjects\AdventureTest" />
+      <recent name="C:\Users\41774\PycharmProjects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.interface">
+    <configuration name="interface" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Habits" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Habits" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/ChatDev-main/ChatDev-main" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ChatDev-main/ChatDev-main/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.interface" />
+        <item itemvalue="Python.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6bb8716-4e1a-40a9-bbb4-e632bd87cc33" name="Changes" comment="" />
+      <created>1772523539890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772523539890</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/interface.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/custom_widgets.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
