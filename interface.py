@@ -15,10 +15,10 @@ from saving import SaveSystem
 log = create_logger("interface")
 
 
-
 # mode = OptionProperty("counter", options=["counter", "textbox", "value_entry"])
 # counter = NumericProperty(0)
 # text = StringProperty("0")
+
 
 
 class AspectLayout(BoxLayout):
@@ -77,7 +77,7 @@ class MainLayout(FloatLayout):
         self.layout_data = []
         self.tracker_widgets = []
         self.trackers_data = {}
-        self.options_dict = {"Counter": CounterWidget, "Text": TextInput, "empty": DraggableResizableWidget}
+        self.options_dict = {"counter": CounterWidget, "text": TextInput, "empty": DraggableResizableWidget}
         self.menu_bar = FloatLayout(pos= (0, Window.height - 60), size = Window.size)
         self.add_widget(self.menu_bar)
         self.dynamic_area = FloatLayout(pos= (0, 0), size = (Window.width, Window.height - 60))
@@ -139,12 +139,14 @@ class MainLayout(FloatLayout):
 
     def save_data(self, instance = None):
         self.trackers_data = self.get_data()
+        self.save_system.save("tracker_data", self.trackers_data)
 
     def load_data(self, instance = None):
-        data = self.trackers_data
+        data = self.save_system.load("tracker_data")
         print(f"load_data: {data=}")
         index = 0
         for key, value in data.items():
+            print(f"item({index}): {key=} {value=}")
             self.tracker_widgets[index].set_data(value)
             index += 1
 
@@ -161,10 +163,12 @@ class MainLayout(FloatLayout):
 
     def save_layout(self, instance = None):
         self.layout_data = self.get_layout()
+        self.save_system.save("Layout", self.layout_data)
+
 
 
     def load_layout(self, instance = None):
-        layout_data = self.layout_data
+        layout_data = self.save_system.load("Layout")
         self.dynamic_area.clear_widgets()
         self.frames = []
         self.tracker_widgets = []

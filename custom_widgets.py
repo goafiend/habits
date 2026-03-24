@@ -1,6 +1,6 @@
 
 from functools import partial
-
+from kivy.clock import Clock
 from kivy.app import App
 from kivy.core.window import Window
 from kivy.graphics import Color, Line, Rectangle
@@ -141,15 +141,26 @@ def show_text_input_popup(origin, **kwargs):
     box.add_widget(text_input)
     box.add_widget(confirm_btn)
     popup = Popup(title="Edit Text", content=box, size_hint=(None, None), size=(300, 200))
-    confirm_btn.bind(on_release=lambda x: origin.set_text_from_input(text_input.text, popup))
     popup.open()
 
-def show_value_popup(self):
-    box = BoxLayout(orientation='vertical')
-    value_input = TextInput(text=str(self.counter), input_filter='int')
-    confirm_btn = Button(text="Set Value", size_hint_y=None, height=40)
-    box.add_widget(value_input)
-    box.add_widget(confirm_btn)
-    popup = Popup(title="Enter Value", content=box, size_hint=(None, None), size=(300, 200))
-    confirm_btn.bind(on_release=lambda x: self.set_value_from_input(value_input.text, popup))
+    def confirm(*args):
+        origin.set_text_from_input(text_input.text, popup)
+
+    confirm_btn.bind(on_release=confirm)
+    text_input.bind(on_text_validate=confirm)
+
+    def focus_input(*args):
+        text_input.focus = True
+        text_input.select_all()
+
+    popup.bind(on_open=lambda *a: Clock.schedule_once(focus_input, 0.1))
     popup.open()
+# def show_value_popup():
+#     box = BoxLayout(orientation='vertical')
+#     value_input = TextInput(text=str(self.counter), input_filter='int')
+#     confirm_btn = Button(text="Set Value", size_hint_y=None, height=40)
+#     box.add_widget(value_input)
+#     box.add_widget(confirm_btn)
+#     popup = Popup(title="Enter Value", content=box, size_hint=(None, None), size=(300, 200))
+#     confirm_btn.bind(on_release=lambda x: self.set_value_from_input(value_input.text, popup))
+#     popup.open()
